@@ -54,3 +54,9 @@
 
 
 #环境配置：
+本程序使用HBuilder搭建编写，需使用HBuilder打开。
+本项目使用网易MuMu模拟器构建安卓虚拟机进行运行测试。
+本项目需要在HBuilder中安装的组件为：uView Plus、uni-calendar、uni-datetime-picker	、uni-tag
+本项目需要在HBuilder中安装的插件为：APP真机运行、dart-sass编译、scss/sass编译、uni-app（x）（Vue3）、uni-helpers、uni-modules插件、uniCloud本地调试运行插件、uts编辑器、内置终端
+（注：HBuilder具有运行的代码时自动根据代码内容提示下载和安装对应插件的功能）
+
