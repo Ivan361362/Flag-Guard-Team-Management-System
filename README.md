@@ -91,3 +91,6 @@ npm error A complete log of this run can be found in: C:\Users\Ivan1\AppData\Loc
 本项目需要在HBuilder中安装的插件为：APP真机运行、dart-sass编译、scss/sass编译、uni-app（x）（Vue3）、uni-helpers、uni-modules插件、uniCloud本地调试运行插件、uts编辑器、内置终端
 （注：HBuilder具有运行的代码时自动根据代码内容提示下载和安装对应插件的功能）
 
+
+#运行方式：
+    启动网易MuMu模拟器后，选择并配制安卓移动端环境，将代码源码文件下载后，安装H Builder并使用H Builder打开文件，index.vue即为主程序代码。需先对h builder进行网易模拟器的适应性配置，配置链接如下https://xiaoshen.blog.csdn.net/article/details/134394974?sharetype=blogdetail&amp;sharerId=134394974&amp;sharerefer=WAP&amp;sharesource=，然后选择菜单栏运行点击运行到手机或模拟器选择运行到Android APP基座，找到系统识别到的模拟机，选择运行代码，即可在电脑端进行本项目移动端APP可视化运行。
