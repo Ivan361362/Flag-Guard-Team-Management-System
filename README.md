@@ -4,7 +4,7 @@
 #项目说明：
     组员：李安为24051106 、金翀昊24150136
     项目内容：高校国旗护卫队信息管理移动端app
-    过程记录：AI提示词：
+    过程记录：AI提示词（包括调试提问，已省略部分重复内容）：
     1、uniapp实现：高校国旗护卫队信息管理app，由以下六个页面构成，可通过主界面的选择按钮进行切换：1.军装信息统计，包括每件的军装种类（海、陆、空）、军装尺码（帽子、上衣、裤子尺码分别记录）、损坏部位、借出人姓名，所有信息可手动录入  2.马靴信息统计，包括马靴尺码、损坏部位  3.团队大事件及安排日历  4.每周一大型升旗排班记录（包括信息：当天日期，主旗姓名，护旗姓名，拉旗姓名，马刀手姓名，队列多名人员姓名名单，后勤多名人员姓名名单，主持人姓名，拍照人员姓名名单） 5.点名界面（带训人员手动点击确认每个人到场），可手动录入删除训练人员姓名表   6.设置军装检索系统，可通过不同的军装信息检索军装，以此快捷找到所有符合条件的军装  要求页面尽量精美
     2、index.vue页面代码
     3、确保已正确安装uView Plus组件库，具体应如何实现安装及检查
@@ -51,6 +51,37 @@
 16:10:19.195 at App.vue:1:0
 16:10:20.353 [plugin:uni:app-nvue-app-style] Could not load ./app.css.js (imported by ../../../../../Documents/HBuilderProjects/GH/main.js): At least one <template> or <script> is required in a single file component.
 16:10:20.375 at App.vue:1:0
+  12、操作时PS C:\Users\Ivan1\Documents\HBuilderProjects\GH> mkdir -p src/styles
+
+
+    目录: C:\Users\Ivan1\Documents\HBuilderProjects\GH\src
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          2025/5/1     16:47                styles
+
+
+PS C:\Users\Ivan1\Documents\HBuilderProjects\GH> touch src/styles/variables.scss
+touch : 无法将“touch”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包
+括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 1
++ touch src/styles/variables.scss
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (touch:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+怎么办
+  13、PS C:\Users\Ivan1\Documents\HBuilderProjects\GH> npm install --force
+npm warn using --force Recommended protections disabled.
+npm error code ETARGET
+npm error notarget No matching version found for @dcloudio/vite-plugin-uni@^2.0.0-31920230418001.
+npm error notarget In most cases you or one of your dependencies are requesting
+npm error notarget a package version that doesn't exist.
+npm error A complete log of this run can be found in: C:\Users\Ivan1\AppData\Local\npm-cache\_logs\2025-05-01T08_25_36_615Z-debug-0.log
+  14、报错16:21:29.476 [plugin:vite:vue]  ../../../../../Documents/HBuilderProjects/GH/App.vue: At least one <template> or <script> is required in a single file component.
+16:21:29.486 at App.vue:1:0
+16:21:29.565 [plugin:uni:app-nvue-app-style] Could not load ./app.css.js (imported by ../../../../../Documents/HBuilderProjects/GH/main.js): At least one <template> or <script> is required in a single file component.
+16:21:29.574 at App.vue:1:0
 
 
 #环境配置：
